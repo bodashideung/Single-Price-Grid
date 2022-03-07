@@ -126,19 +126,17 @@ main{
         padding: 1rem;
         cursor: pointer;
         transition: .3s ease-in;
+        color: white;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        display: block;
 
         &:hover{
             background: transparent;
             border: 2px solid white;
         }
-        
-        .cta{
-            color: white;
-            font-size: 1rem;
-            letter-spacing: 1px;
-            font-weight: 700;
-            display: block;
-        }
+      
     }
 }
 
@@ -196,7 +194,7 @@ main{
         .box-2 {
 
             .feature{
-                margin-bottom: 0.2rem;
+                margin-bottom: .8rem;
             }
             p{
             font-size: .9rem;
